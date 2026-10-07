@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3298c0;
+    text-align: center;
+    color: #ffffff;
+
+
+.bloco {
+    background-color: #fff;
+    color: #17102E;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+
+    flex-direction: column;
+    flex: auto;
+    gap: 4px;
+    box-shadow: 2px 2px 2px 0px #000000;
+    border: 2px solid #000000;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.bloco:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 0px 0px #000000;
+}
+
+.bloco a {
+    text-decoration: none;
+    color: #17102E;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bloco a:hover {
+    opacity: 50%;
+}
+
+.bloco-inactive {
+    opacity: 60%;
+    border: 2px dashed #000000;
+}
+
+.btn1 {
+    box-shadow: 2px 2px 0 #000;
+    border: 2px solid #000;
+    transition: .3s ease;
+    border-radius: 5px;
+}  
+    
+.btn1:hover {
+    box-shadow: 0 0 0 #000;
+    transform: translate(2px, 2px);
+}
+
+.box-shadow {
+    border: 2px solid #000;
+    box-shadow: 2px 2px 0 #000;
+}
+
+.box-shadow-lg {
+  border: 2px solid #000;
+  box-shadow: 2px 2px 0 #000;
+  transition: .3s ease;
+}
+.box-shadow-lg:hover {
+  box-shadow: 0 0 0 #000;
+}
+
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
